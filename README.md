@@ -42,7 +42,7 @@ La aplicación sigue la arquitectura **Modelo-Vista-Controlador**:
 
 1. Clonar el repositorio:  
 ```bash
-git clone https://github.com/tu_usuario/coyuca_pagina.git
+git clone https://github.com/devgarciacali/coyuca_pagina.git
 
 ---
 
