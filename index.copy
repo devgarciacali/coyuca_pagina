@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elder Pineda Pineda</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="img/favicon.ico">
+</head>
+<body>
+<div class="container">
+    <header>
+        <hr>
+        <div class="row">
+            <div class="col-4">
+                <a href="https://www.facebook.com/elderpineda97" class="link-secondary">Sígueme</a>
+            </div>
+            <div class="col-4">
+                <img src="img/museotaylorswift.png" alt="logo" class="img-fluid">
+            </div>
+            <div class="col-4 text-muted text-end">
+                <script>
+                    var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                    var f=new Date();
+                    document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                </script>
+            </div>
+        </div>
+        <hr>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navPrin">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="vida.html">Vida y Carrera</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="albumes.html">Albumes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<br>
+<div class="container">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/1989slider.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/fearless2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/repslider2.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+<div class="container py-5">
+    <div class="row">
+        <main class="col-md-8">
+            <h4 class="bloc-title"><span class="span-title">Noticias</span></h4>
+            <article>
+                <div class="borde">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <br>
+                            <img src="img/img3.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">¿Qué encontrarás aquí?</h5>
+                                <p class="card-text">En esta página web encontrarás todo sobre algunos premios, certificaciones y logros personales de la cantante y compositora Taylor Swift.
+                                    Además de informacion, fotos y records de 3 de los 9 álbumes de estudio de Swift</p>
+                                <a href="encontrarasaqui.html" class="boton">Leer Más</a>
+                                <p class="card-text"><small class="text-muted">Agosto 10, 2021</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </article>
+            <article>
+                <div class="borde">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <br>
+                            <img src="img/img4.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Antes de comenzar</h5>
+                                <p class="card-text">¡Bienvenido! Como todo buen anfitrion deseo que tu experiencia aquí sea lo mejor
+                                    que te haya pasado en Internet, espero que puedas realmente disfrutar de cada uno de los apartados
+                                    y rincones de este sitio web como si fuera una sensación presencial, hice lo mejor que pude y me divertí
+                                    mucho creandolo, espero que al igual que yo conozcas la vida de la interprete, y por supuesto, te diviertas
+                                    mientras exploras el sitio, que al final del dia fue creado para entretener.</p>
+                                <a href="antesdecomenzar.html" class="boton">Leer Más</a>
+                                <p class="card-text"><small class="text-muted">Agosto 10, 2021</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </article>
+            <article>
+                <div class="borde">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <br>
+                            <img src="img/img5.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">¿Por qué creé esta página?</h5>
+                                <p class="card-text">Decidí iniciar este nuevo proyecto porque con el paso del tiempo he visto a
+                                    través de Internet que hay cierta cantidad de articulos e información falsa acerca de la cantante y
+                                    compositora, ya sea sobre sus records o álbumes, asi que yo solo trataré de impartirles solo datos
+                                    correctos de la cantante
+                                    Y tambíen es un proyecto final para la materia de Aplicaciones Web en la Universidad Tecnológica de
+                                    la Tierra Caliente</p>
+                                <p class="card-text"><small class="text-muted">Agosto 10, 2021</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </article>
+
+        </main>
+        <div class="col-md-1"></div>
+
+        <aside class="col-md-3">
+            <div class="vc">
+                <span class="aside-line"></span>
+                <h4 class="vc-h2">Autor</h4>
+                <span class="aside-line"></span>
+            </div>
+            <div>
+                <img src="img/autor.jpg" class="img-fluid rounded-start" alt="Autor">
+            </div>
+            <div class="vc">
+                <span class="aside-line"></span>
+                <h4 class="vc-h2">Sitios de Interés</h4>
+                <span class="aside-line"></span>
+            </div>
+            <div class="container-fluid">
+               <!-- <a href="https://www.taylorswift.com/">
+                    <img src="img/LOGO%203D.webp" class="rounded mx-auto d-block" alt="...">
+                </a>-->
+            </div>
+
+            <div class="vc">
+                <span class="aside-line"></span>
+                <h4 class="vc-h2">Facebook</h4>
+                <span class="aside-line"></span>
+            </div>
+            <div class="container-fluid">
+                <div id="fb-root"></div>
+				<!--<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v11.0&appId=226593770685261&autoLogAppEvents=1" nonce="CT16xwrc"></script>
+				 <div class="fb-page" data-href="https://www.facebook.com/TaylorSwift/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/TaylorSwift/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/TaylorSwift/">Taylor Swift</a></blockquote></div>-->
+            </div>
+            <div class="vc">
+                <span class="aside-line"></span>
+                <h4 class="vc-h2">Videos</h4>
+                <span class="aside-line"></span>
+            </div>
+            <div class="container-fluid">
+               <!-- <iframe src="https://www.youtube.com/embed/K-a8s8OLBSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+            </div>
+        </aside>
+    </div>
+
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 pd-footer">
+                <img src="img/museotaylorswift.png" class="rounded mx-auto d-block img-fluid" alt="...">
+            </div>
+            <div class="col-4 pd-footer">
+                <h5 class="card-title">Nosotros</h5>
+                <p class="card-text">En esta página web encontrarás todo sobre algunos premios, certificaciones y logros personales de la cantante y compositora Taylor Swift.
+                    Además de informacion, fotos y records de 3 de los 9 álbumes de estudio de Swift</p>
+            </div>
+            <div class="col-4">
+                <h5 class="card-title siguenos">Siguenos</h5>
+                <a href="#"><img src="img/facebook.png" alt="" class="img-fluid tm-img"></a>
+                <a href="#"><img src="img/instagram.png" alt="" class="img-fluid tm-img"></a>
+                <a href="#"><img src="img/twitter.png" alt="" class="img-fluid tm-img"></a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-copy">
+        <p class="copyright">
+            Todos los derechos reservados &copy;. Museo Taylor Swift
+        </p>
+    </div>
+</footer>
+
+
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
